@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector(".change-access-token");e&&e.addEventListener("click",(()=>{e.style.display="none";const c=document.querySelector(".access-token-input input");c.disabled=!1,c.value="",c.focus(),document.querySelector(".access-token-input .description").hidden=!1}))})();
